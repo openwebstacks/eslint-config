@@ -25,6 +25,7 @@ module.exports = {
     'packages-lock.json',
     'pnpm-lock.yaml',
     'yarn.lock',
+    'cypress',
     '__snapshots__',
     '!.github',
     '!.vitepress',
