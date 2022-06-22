@@ -30,22 +30,23 @@ Forked from [`@antfu/eslint-config`](https://github.com/antfu/eslint-config)
 pnpm add -D eslint @ow3/eslint-config
 ```
 
-### Config `.eslintrc`
+### Config
 
-```json
+Simply create a `.eslintrc` file in your project root with the following content:
+
+```js
 {
   "extends": "@ow3"
 }
 ```
 
-> You don't need your `.eslintignore` as it is pre-defined via this preset.
+> Please note, you won't need a `.eslintignore` file as it is pre-defined via this preset.
 
-### Add ESLint scripts
+### ESLint Scripts
 
-For example:
+Simply add the following to your `package.json`:
 
-```json
-// ./package.json
+```js
 {
   "scripts": {
     "lint": "eslint .",
@@ -54,7 +55,7 @@ For example:
 }
 ```
 
-### VS Code Config
+### VS Code Integration
 
 Create `.vscode/settings.json` in your project root and add the following setting:
 
