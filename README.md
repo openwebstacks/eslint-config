@@ -38,13 +38,14 @@ pnpm add -D eslint @ow3/eslint-config
 }
 ```
 
-> You don't need `.eslintignore` normally as it has been provided by the preset.
+> You don't need your `.eslintignore` as it is pre-defined via this preset.
 
-### Add script for package.json
+### Add ESLint scripts
 
 For example:
 
 ```json
+// ./package.json
 {
   "scripts": {
     "lint": "eslint .",
@@ -53,9 +54,9 @@ For example:
 }
 ```
 
-### Config VS Code auto fix
+### VS Code Config
 
-Create `.vscode/settings.json`
+Create `.vscode/settings.json` in your project root and add the following setting:
 
 ```json
 {
