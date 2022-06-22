@@ -18,16 +18,16 @@ module.exports = {
     '@ow3/eslint-config-ts',
   ],
   rules: {
-    "vue/max-attributes-per-line": [
-      "error",
+    'vue/max-attributes-per-line': [
+      'error',
       {
-        "singleline": {
-          "max": 1
+        singleline: {
+          max: 1,
         },
-        "multiline": {
-          "max": 1
-        }
-      }
+        multiline: {
+          max: 1,
+        },
+      },
     ],
     'vue/no-v-html': 'off',
     'vue/require-prop-types': 'off',
