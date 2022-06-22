@@ -33,7 +33,7 @@ module.exports = {
   plugins: [
     'html',
     'unicorn',
-    'antfu',
+    'ow3',
   ],
   settings: {
     'import/resolver': {
@@ -329,9 +329,9 @@ module.exports = {
     'yml/quotes': ['error', { prefer: 'single', avoidEscape: false }],
     'yml/no-empty-document': 'off',
 
-    // antfu
-    'antfu/if-newline': 'error',
-    'antfu/import-dedupe': 'error',
-    // 'antfu/prefer-inline-type-import': 'error',
+    // ow3
+    'ow3/if-newline': 'error',
+    'ow3/import-dedupe': 'error',
+    // 'ow3/prefer-inline-type-import': 'error',
   },
 }

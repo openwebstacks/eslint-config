@@ -1,6 +1,14 @@
-# @antfu/eslint-config
+<p align="center"><img src=".github/art/social.png" alt="Social Card of ESLint Config"></p>
 
-[![npm](https://img.shields.io/npm/v/@antfu/eslint-config?color=a1b858&label=)](https://npmjs.com/package/@antfu/eslint-config)
+[![npm version][npm-version-src]][npm-version-href]
+[![GitHub Actions][github-actions-src]][github-actions-href]
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+<!-- [![npm downloads][npm-downloads-src]][npm-downloads-href] -->
+<!-- [![Codecov][codecov-src]][codecov-href] -->
+
+# @ow3/eslint-config
+
+Forked from [`@antfu/eslint-config`](https://github.com/antfu/eslint-config)
 
 - Single quotes, no semi
 - Auto fix for formatting (aimed to be used standalone without Prettier)
@@ -9,19 +17,24 @@
 - Sorted imports, dangling commas for cleaner commit diff
 - Reasonable defaults, best practices, only one-line of config
 
+###### Changes in this fork
+
+- Improved component library linting & formatting
+- Stacks support
+
 ## Usage
 
 ### Install
 
 ```bash
-pnpm add -D eslint @antfu/eslint-config
+pnpm add -D eslint @ow3/eslint-config
 ```
 
 ### Config `.eslintrc`
 
 ```json
 {
-  "extends": "@antfu"
+  "extends": "@ow3"
 }
 ```
 
@@ -55,12 +68,38 @@ Create `.vscode/settings.json`
 
 ## Check Also
 
-- [antfu/dotfiles](https://github.com/antfu/dotfiles) - My dotfiles
-- [antfu/vscode-settings](https://github.com/antfu/vscode-settings) - My VS Code settings
-- [antfu/eslint-config](https://github.com/antfu/eslint-config) - My ESLint config
-- [antfu/ts-starter](https://github.com/antfu/ts-starter) - My starter template for TypeScript library
-- [antfu/vitesse](https://github.com/antfu/vitesse) - My starter template for Vue & Vite app
+- [openwebstacks/stacks-framework](https://github.com/openwebstacks/stacks-framework) - Stacks - The modern way to create & distribute component libraries
+- [openwebstacks/vue-starter](https://github.com/openwebstacks/vue-starter) - Starter template for Vue libraries
+- [openwebstacks/web-components-starter](https://github.com/openwebstacks/web-components-starter) - Starter template for Web Component libraries
+- [openwebstacks/composable-starter](https://github.com/openwebstacks/composable-starter) - Starter template for Composable libraries
+- [openwebstacks/ts-starter](https://github.com/openwebstacks/ts-starter) - Starter template for TypeScript libraries
 
-## License
+## 📈 Changelog
 
-MIT
+Please see our [releases](https://github.com/openwebstacks/eslint-config/releases) page for more information on what has changed recently.
+
+## 🏝 Community
+
+For help, discussion about best practices, or any other conversation that would benefit from being searchable:
+
+[Discussions on GitHub](https://github.com/openwebstacks/eslint-config/discussions)
+
+For casual chit-chat with others using this package:
+
+[Join the Open Web Discord Server](https://discord.ow3.org)
+
+## 📄 License
+
+The MIT License (MIT). Please see [LICENSE](LICENSE.md) for more information.
+
+Made with ❤️
+
+<!-- Badges -->
+[npm-version-src]: https://img.shields.io/npm/v/@ow3/eslint-config?style=flat-square
+[npm-version-href]: https://npmjs.com/package/@ow3/eslint-config
+
+[npm-downloads-src]: https://img.shields.io/npm/dm/@ow3/eslint-config?style=flat-square
+[npm-downloads-href]: https://npmjs.com/package/@ow3/eslint-config
+
+[github-actions-src]: https://img.shields.io/github/workflow/status/openwebstacks/eslint-config/CI/main?style=flat-square
+[github-actions-href]: https://github.com/openwebstacks/eslint-config/actions?query=workflow%3Aci

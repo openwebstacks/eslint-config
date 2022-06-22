@@ -1,8 +1,8 @@
-const basic = require('@antfu/eslint-config-basic')
+const basic = require('@ow3/eslint-config-basic')
 
 module.exports = {
   extends: [
-    '@antfu/eslint-config-basic',
+    '@ow3/eslint-config-basic',
     'plugin:import/typescript',
     'plugin:@typescript-eslint/recommended',
   ],

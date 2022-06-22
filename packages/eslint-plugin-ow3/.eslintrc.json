@@ -1,0 +1,6 @@
+{
+  "extends": "@ow3",
+  "plugins": [
+    "ow3"
+  ]
+}

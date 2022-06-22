@@ -1,10 +1,10 @@
 {
-  "name": "@antfu/eslint-config-ts",
-  "version": "0.25.1",
+  "name": "@ow3/eslint-config-ts",
+  "version": "0.0.0",
   "description": "",
-  "author": "Anthony Fu <anthonyfu117@hotmail.com> (https://github.com/antfu/)",
+  "author": "Anthony Fu <anthonyfu117@hotmail.com> (https://github.com/openwebstacks/eslint-config/)",
   "license": "MIT",
-  "homepage": "https://github.com/antfu/eslint-config",
+  "homepage": "https://github.com/openwebstacks/eslint-config",
   "keywords": [
     "eslint-config"
   ],
@@ -17,7 +17,7 @@
     "typescript": ">=3.9"
   },
   "dependencies": {
-    "@antfu/eslint-config-basic": "workspace:*",
+    "@ow3/eslint-config-basic": "workspace:*",
     "@typescript-eslint/eslint-plugin": "^5.26.0",
     "@typescript-eslint/parser": "^5.26.0"
   },

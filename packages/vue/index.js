@@ -15,10 +15,20 @@ module.exports = {
   ],
   extends: [
     'plugin:vue/vue3-recommended',
-    '@antfu/eslint-config-ts',
+    '@ow3/eslint-config-ts',
   ],
   rules: {
-    'vue/max-attributes-per-line': 'off',
+    "vue/max-attributes-per-line": [
+      "error",
+      {
+        "singleline": {
+          "max": 1
+        },
+        "multiline": {
+          "max": 1
+        }
+      }
+    ],
     'vue/no-v-html': 'off',
     'vue/require-prop-types': 'off',
     'vue/require-default-prop': 'off',
