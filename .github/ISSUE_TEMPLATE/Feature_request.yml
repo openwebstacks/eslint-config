@@ -1,5 +1,5 @@
 name: 💡 Feature request
-description: 'For ideas or feature requests: please make a pull request or open an issue.'
+description: "For ideas or feature requests: please make a pull request or open an issue, or consider starting a discussion."
 labels: [enhancement]
 body:
   - type: textarea

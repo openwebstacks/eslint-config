@@ -4,7 +4,7 @@ labels: [question]
 body:
   - type: textarea
     attributes:
-      label: How could we help you?
+      label: How can we help?
       description: Please describe what is happening and what you expect to happen.
     validations:
       required: true
