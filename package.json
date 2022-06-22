@@ -13,6 +13,10 @@
     "release": "bumpp package.json packages/*/package.json",
     "test": "pnpm -r run test"
   },
+  "engines": {
+    "node": ">=v16.15.1",
+    "pnpm": ">=7.3.0"
+  },
   "devDependencies": {
     "@ow3/eslint-config": "*",
     "bumpp": "^8.2.0",
