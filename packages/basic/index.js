@@ -31,6 +31,7 @@ module.exports = {
     '!.github',
     '!.vitepress',
     '!.vscode',
+    '!.stacks',
   ],
   plugins: [
     'html',
@@ -147,7 +148,7 @@ module.exports = {
       },
     },
     {
-      files: ['scripts/**/*.*', 'cli.*'],
+      files: ['./.stacks/scripts/**/*.*', 'cli.*'],
       rules: {
         'no-console': 'off',
       },
