@@ -148,7 +148,7 @@ module.exports = {
       },
     },
     {
-      files: ['./.stacks/scripts/**/*.*', 'cli.*'],
+      files: ['./.stacks/scripts/**/*.*', './.stacks/src/cli/*.*'],
       rules: {
         'no-console': 'off',
       },
