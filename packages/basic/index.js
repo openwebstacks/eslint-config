@@ -27,6 +27,7 @@ module.exports = {
     'pnpm-lock.yaml',
     'yarn.lock',
     'cypress',
+    'node_modules',
     '__snapshots__',
     '!.github',
     '!.vitepress',
