@@ -34,7 +34,7 @@ pnpm add -D eslint @ow3/eslint-config
 
 Simply create a `.eslintrc` file in your project root with the following content:
 
-```js
+```json
 {
   "extends": "@ow3"
 }
@@ -46,7 +46,7 @@ Simply create a `.eslintrc` file in your project root with the following content
 
 Simply add the following to your `package.json`:
 
-```js
+```json
 {
   "scripts": {
     "lint": "eslint .",

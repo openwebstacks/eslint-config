@@ -2,7 +2,7 @@
   "typescript.tsdk": "node_modules/typescript/lib",
   "eslint.format.enable": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,
+    "source.fixAll.eslint": true
   },
   "markdownlint.ignore": [
     "CHANGELOG.md"
@@ -10,7 +10,7 @@
   "search.exclude": {
     "dist": true,
     "node_modules": true,
-    "CHANGELOG.md": true,
+    "CHANGELOG.md": true
   },
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.expand": false,
@@ -167,7 +167,7 @@
     "stroustrup",
     "stroustrup",
     "camelcase",
-    "linebreak",
+    "linebreak"
   ],
-  "prettier.enable": false,
+  "prettier.enable": false
 }
