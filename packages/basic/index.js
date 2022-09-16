@@ -28,6 +28,7 @@ module.exports = {
     'yarn.lock',
     'cypress',
     'node_modules',
+    'vendor',
     '__snapshots__',
     '!.github',
     '!.vitepress',
