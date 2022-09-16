@@ -70,21 +70,21 @@ Create `.vscode/settings.json` in your project root and add the following settin
 
 ## Check Also
 
-- [openwebstacks/stacks-framework](https://github.com/openwebstacks/stacks-framework) - Stacks - The modern way to create & distribute component libraries
-- [openwebstacks/vue-starter](https://github.com/openwebstacks/vue-starter) - Starter template for Vue libraries
-- [openwebstacks/web-components-starter](https://github.com/openwebstacks/web-components-starter) - Starter template for Web Component libraries
-- [openwebstacks/composable-starter](https://github.com/openwebstacks/composable-starter) - Starter template for Composable libraries
-- [openwebstacks/ts-starter](https://github.com/openwebstacks/ts-starter) - Starter template for TypeScript libraries
+- [ow3org/stacks](https://github.com/ow3org/stacks) - Stacks - The modern way to create & distribute component libraries
+- [ow3org/vue-starter](https://github.com/ow3org/vue-starter) - Starter template for Vue libraries
+- [ow3org/web-components-starter](https://github.com/ow3org/web-components-starter) - Starter template for Web Component libraries
+- [ow3org/composable-starter](https://github.com/ow3org/composable-starter) - Starter template for Composable libraries
+- [ow3org/ts-starter](https://github.com/ow3org/ts-starter) - Starter template for TypeScript libraries
 
 ## 📈 Changelog
 
-Please see our [releases](https://github.com/openwebstacks/eslint-config/releases) page for more information on what has changed recently.
+Please see our [releases](https://github.com/ow3org/eslint-config/releases) page for more information on what has changed recently.
 
 ## 🏝 Community
 
 For help, discussion about best practices, or any other conversation that would benefit from being searchable:
 
-[Discussions on GitHub](https://github.com/openwebstacks/eslint-config/discussions)
+[Discussions on GitHub](https://github.com/ow3org/eslint-config/discussions)
 
 For casual chit-chat with others using this package:
 
