@@ -28,7 +28,8 @@ module.exports = {
     'yarn.lock',
     'cypress',
     'node_modules',
-    'vendor',
+    'vendor', // composer vendor directory
+    'storage', // laravel's storage directory may contain compiled views etc.
     '__snapshots__',
     '!.github',
     '!.vitepress',
