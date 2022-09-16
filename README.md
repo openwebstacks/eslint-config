@@ -21,6 +21,7 @@ Forked from [`@antfu/eslint-config`](https://github.com/antfu/eslint-config)
 
 - Improved component library linting & formatting
 - Stacks support
+- Laravel support
 
 ## Usage
 
