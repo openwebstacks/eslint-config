@@ -105,5 +105,5 @@ Made with ❤️
 [npm-downloads-src]: https://img.shields.io/npm/dm/@ow3/eslint-config?style=flat-square
 [npm-downloads-href]: https://npmjs.com/package/@ow3/eslint-config
 
-[github-actions-src]: https://img.shields.io/github/workflow/status/openwebstacks/eslint-config/CI/main?style=flat-square
-[github-actions-href]: https://github.com/openwebstacks/eslint-config/actions?query=workflow%3Aci
+[github-actions-src]: https://img.shields.io/github/workflow/status/ow3org/eslint-config/CI/main?style=flat-square
+[github-actions-href]: https://github.com/ow3org/eslint-config/actions?query=workflow%3Aci

@@ -20,7 +20,7 @@ Aside from these implemented features, this folder also contains the issue templ
 
 For help, discussion about best practices, or any other conversation that would benefit from being searchable:
 
-[Discussions on GitHub](https://github.com/openwebstacks/stacks-framework/discussions)
+[Discussions on GitHub](https://github.com/ow3org/eslint-config/discussions)
 
 For casual chit-chat with others using this package:
 

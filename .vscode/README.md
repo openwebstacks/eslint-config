@@ -6,7 +6,7 @@ This folder contains optimized VS Code settings for this particular project.
 
 For help, discussion about best practices, or any other conversation that would benefit from being searchable:
 
-[Discussions on GitHub](https://github.com/openwebstacks/eslint-config/discussions)
+[Discussions on GitHub](https://github.com/ow3org/eslint-config/discussions)
 
 For casual chit-chat with others using this package:
 
