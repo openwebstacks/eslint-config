@@ -3,7 +3,7 @@
 [![npm version][npm-version-src]][npm-version-href]
 [![GitHub Actions][github-actions-src]][github-actions-href]
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
-<!-- [![npm downloads][npm-downloads-src]][npm-downloads-href] -->
+[![npm downloads][npm-downloads-src]][npm-downloads-href]
 <!-- [![Codecov][codecov-src]][codecov-href] -->
 
 # @ow3/eslint-config
@@ -11,8 +11,8 @@
 Forked from [`@antfu/eslint-config`](https://github.com/antfu/eslint-config)
 
 - Single quotes, no semi
-- Auto fix for formatting (aimed to be used standalone without Prettier)
-- Designed to work with TypeScript, Vue out-of-box
+- Auto fix for formatting (aimed to be used as standalone without Prettier)
+- Designed to work with TypeScript, Vue out-of-box (React opt-in)
 - Lint also for json, yaml, markdown
 - Sorted imports, dangling commas for cleaner commit diff
 - Reasonable defaults, best practices, only one-line of config
