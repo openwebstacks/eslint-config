@@ -59,7 +59,7 @@ module.exports = {
         'jsonc/no-octal-escape': 'error',
         'jsonc/object-curly-newline': ['error', { multiline: true, consistent: true }],
         'jsonc/object-curly-spacing': ['error', 'always'],
-        'jsonc/object-property-newline': ['error', { allowMultiplePropertiesPerLine: true }],
+        'jsonc/object-property-newline': ['error', { allowAllPropertiesOnSameLine: true }],
       },
     },
     {
