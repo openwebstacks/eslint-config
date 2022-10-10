@@ -70,6 +70,10 @@ Create `.vscode/settings.json` in your project root and add the following settin
 }
 ```
 
+## Extended Reading
+
+Learn more about the context - [Why I don't use Prettier](https://antfu.me/posts/why-not-prettier).
+
 ## Check Also
 
 - [ow3org/stacks](https://github.com/ow3org/stacks) - Stacks - The modern way to create & distribute component libraries
