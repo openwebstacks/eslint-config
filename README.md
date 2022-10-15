@@ -22,6 +22,7 @@ Forked from [`@antfu/eslint-config`](https://github.com/antfu/eslint-config)
 - Improved component library linting & formatting
 - Stacks support
 - Laravel support
+- Other minor additions, i.e. `no-constant-binary-expression` usage
 
 ## Usage
 
