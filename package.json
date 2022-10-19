@@ -1,6 +1,6 @@
 {
   "name": "@ow3/eslint-config-monorepo",
-  "version": "0.31.0",
+  "version": "0.31.1",
   "private": true,
   "packageManager": "pnpm@7.13.3",
   "author": "Chris Breuer",
