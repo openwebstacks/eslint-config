@@ -151,7 +151,11 @@ module.exports = {
       },
     },
     {
-      files: ['./.stacks/scripts/**/*.*', './.stacks/cli/**/*.*'],
+      files: [
+        './.stacks/scripts/**/*.*',
+        './.stacks/core/stacks/cli/**/*.*',
+        './.stacks/core/stacks-init/**/*.*',
+      ],
       rules: {
         'no-console': 'off',
       },
