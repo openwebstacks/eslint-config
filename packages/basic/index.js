@@ -153,6 +153,7 @@ module.exports = {
     {
       files: [
         './.stacks/scripts/**/*.*',
+        './.stacks/core/cli/**/*.*',
         './.stacks/core/stacks/cli/**/*.*',
         './.stacks/core/stacks-init/**/*.*',
       ],
