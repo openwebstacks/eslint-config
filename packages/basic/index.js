@@ -35,6 +35,7 @@ module.exports = {
     '!.vitepress',
     '!.vscode',
     '!.stacks',
+    '.stacks/core/cli/README.md',
   ],
   plugins: [
     'html',
