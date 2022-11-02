@@ -19,9 +19,10 @@ Forked from [`@antfu/eslint-config`](https://github.com/antfu/eslint-config)
 
 ###### Changes in this fork
 
+- Type-Safe Error Handling
 - Improved component library linting & formatting
-- Stacks support
-- Laravel support
+- Stacks Support
+- Laravel Support
 - Other minor additions, i.e. `no-constant-binary-expression` usage
 
 ## Usage
