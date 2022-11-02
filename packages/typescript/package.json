@@ -19,7 +19,8 @@
   "dependencies": {
     "@ow3/eslint-config-basic": "workspace:*",
     "@typescript-eslint/eslint-plugin": "^5.26.0",
-    "@typescript-eslint/parser": "^5.26.0"
+    "@typescript-eslint/parser": "^5.26.0",
+    "eslint-plugin-neverthrow": "^1.1.4"
   },
   "devDependencies": {
     "eslint": "^8.16.0"

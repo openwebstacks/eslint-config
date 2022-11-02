@@ -167,7 +167,8 @@
     "stroustrup",
     "stroustrup",
     "camelcase",
-    "linebreak"
+    "linebreak",
+    "neverthrow"
   ],
   "prettier.enable": false
 }

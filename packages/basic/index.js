@@ -41,6 +41,7 @@ module.exports = {
     'html',
     'unicorn',
     'ow3',
+    'neverthrow',
   ],
   settings: {
     'import/resolver': {
@@ -186,6 +187,9 @@ module.exports = {
     },
   ],
   rules: {
+    // type safe error handling
+    'neverthrow/must-use-result': 'error',
+
     // import
     'import/order': 'error',
     'import/first': 'error',
