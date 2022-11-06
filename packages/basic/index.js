@@ -40,7 +40,8 @@ module.exports = {
   plugins: [
     'html',
     'unicorn',
-    'antfu',
+    'ow3',
+    'neverthrow',
   ],
   settings: {
     'import/resolver': {

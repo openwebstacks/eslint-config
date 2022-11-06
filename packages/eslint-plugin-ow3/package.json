@@ -19,7 +19,7 @@
     "@typescript-eslint/utils": "^5.26.0"
   },
   "devDependencies": {
-  "@types/node": "^18.11.8",
+    "@types/node": "^18.11.8",
     "unbuild": "^0.8.10",
     "vitest": "^0.22.1"
   }
