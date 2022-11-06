@@ -40,8 +40,7 @@ module.exports = {
   plugins: [
     'html',
     'unicorn',
-    'ow3',
-    'neverthrow',
+    'antfu',
   ],
   settings: {
     'import/resolver': {
@@ -166,6 +165,7 @@ module.exports = {
       files: ['*.test.ts', '*.test.js', '*.spec.ts', '*.spec.js'],
       rules: {
         'no-unused-expressions': 'off',
+        'no-only-tests/no-only-tests': 'error',
       },
     },
     {

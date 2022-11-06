@@ -60,7 +60,7 @@ Simply add the following to your `package.json`:
 
 ### VS Code Integration
 
-Create `.vscode/settings.json` in your project root and add the following setting:
+Install [VS Code ESLint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) and create `.vscode/settings.json`, and add the following setting:
 
 ```json
 {
@@ -78,11 +78,11 @@ Learn more about the context - [Why I don't use Prettier](https://antfu.me/posts
 
 ## Check Also
 
-- [ow3org/stacks](https://github.com/ow3org/stacks) - Stacks - The modern way to create & distribute component libraries
-- [ow3org/vue-starter](https://github.com/ow3org/vue-starter) - Starter template for Vue libraries
-- [ow3org/web-components-starter](https://github.com/ow3org/web-components-starter) - Starter template for Web Component libraries
-- [ow3org/composable-starter](https://github.com/ow3org/composable-starter) - Starter template for Composable libraries
-- [ow3org/ts-starter](https://github.com/ow3org/ts-starter) - Starter template for TypeScript libraries
+- [stacksjs/stacks](https://github.com/stacksjs/stacks) - Stacks - The modern way to create & distribute component libraries
+- [stacksjs/vue-starter](https://github.com/stacksjs/vue-starter) - Starter template for Vue libraries
+- [stacksjs/web-components-starter](https://github.com/stacksjs/web-components-starter) - Starter template for Web Component libraries
+- [stacksjs/composable-starter](https://github.com/stacksjs/composable-starter) - Starter template for Composable libraries
+- [stacksjs/ts-starter](https://github.com/stacksjs/ts-starter) - Starter template for TypeScript libraries
 
 ## 📈 Changelog
 
