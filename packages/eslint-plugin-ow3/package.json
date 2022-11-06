@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-ow3",
-  "version": "0.32.0",
+  "version": "0.32.1",
   "license": "MIT",
   "homepage": "https://github.com/ow3org/eslint-config",
   "main": "./dist/index.cjs",
