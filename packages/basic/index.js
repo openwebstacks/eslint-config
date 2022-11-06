@@ -154,9 +154,9 @@ module.exports = {
     },
     {
       files: [
+        './.stacks/core/cli/**/*.*',
         './.stacks/core/runtime/**/*.*',
         './.stacks/scripts/**/*.*',
-        './.stacks/src/cli/**/*.*',
       ],
       rules: {
         'no-console': 'off',
