@@ -154,10 +154,10 @@ module.exports = {
     },
     {
       files: ['*.ts', '*.vue'],
+      parser: '@typescript-eslint/parser',
       rules: {
         'neverthrow/must-use-result': 'error',
       },
-      parser: '@typescript-eslint/parser',
     },
     {
       files: [
