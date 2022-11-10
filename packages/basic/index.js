@@ -153,6 +153,13 @@ module.exports = {
       },
     },
     {
+      files: ['*.ts', '*.vue'],
+      rules: {
+        'neverthrow/must-use-result': 'error',
+      },
+      parser: '@typescript-eslint/parser',
+    },
+    {
       files: [
         './.stacks/core/cli/**/*.*',
         './.stacks/core/runtime/**/*.*',
@@ -189,9 +196,6 @@ module.exports = {
     },
   ],
   rules: {
-    // type safe error handling
-    'neverthrow/must-use-result': 'error',
-
     // import
     'import/order': 'error',
     'import/first': 'error',
@@ -350,5 +354,8 @@ module.exports = {
     'ow3/if-newline': 'error',
     'ow3/import-dedupe': 'error',
     // 'ow3/prefer-inline-type-import': 'error',
+
+    // type safe error handling
+    'neverthrow/must-use-result': 'error',
   },
 }
