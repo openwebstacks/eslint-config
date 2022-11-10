@@ -12,22 +12,37 @@ watchEffect(() => {
 <template>
   <div>
     <div text-4xl>
-      <div i-carbon-pedestrian inline-block />
+      <div
+        i-carbon-pedestrian
+        inline-block
+      />
     </div>
     <p>
       {{ t('intro.hi', { name: props.name }) }}
     </p>
 
-    <p text-sm opacity-75>
+    <p
+      text-sm
+      opacity-75
+    >
       <em>{{ t('intro.dynamic-route') }}</em>
     </p>
 
     <template v-if="user.otherNames.length">
-      <p text-sm mt-4>
+      <p
+        text-sm
+        mt-4
+      >
         <span opacity-75>{{ t('intro.aka') }}:</span>
         <ul>
-          <li v-for="otherName in user.otherNames" :key="otherName">
-            <router-link :to="`/hi/${otherName}`" replace>
+          <li
+            v-for="otherName in user.otherNames"
+            :key="otherName"
+          >
+            <router-link
+              :to="`/hi/${otherName}`"
+              replace
+            >
               {{ otherName }}
             </router-link>
           </li>
@@ -37,7 +52,9 @@ watchEffect(() => {
 
     <div>
       <button
-        btn m="3 t6" text-sm
+        btn
+        m="3 t6"
+        text-sm
         @click="router.back()"
       >
         {{ t('button.back') }}

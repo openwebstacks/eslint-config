@@ -14,15 +14,25 @@ const { t } = useI18n()
 <template>
   <div>
     <div text-4xl>
-      <div i-carbon-campsite inline-block />
+      <div
+        i-carbon-campsite
+        inline-block
+      />
     </div>
     <p>
-      <a rel="noreferrer" href="https://github.com/antfu/vitesse" target="_blank">
+      <a
+        rel="noreferrer"
+        href="https://github.com/antfu/vitesse"
+        target="_blank"
+      >
         Vitesse
       </a>
     </p>
     <p>
-      <em text-sm opacity-75>{{ t('intro.desc') }}</em>
+      <em
+        text-sm
+        opacity-75
+      >{{ t('intro.desc') }}</em>
     </p>
 
     <div py-4 />
@@ -42,11 +52,16 @@ const { t } = useI18n()
       outline="none active:none"
       @keydown.enter="go"
     >
-    <label class="hidden" for="input">{{ t('intro.whats-your-name') }}</label>
+    <label
+      class="hidden"
+      for="input"
+    >{{ t('intro.whats-your-name') }}</label>
 
     <div>
       <button
-        btn m-3 text-sm
+        btn
+        m-3
+        text-sm
         :disabled="!name"
         @click="go"
       >
