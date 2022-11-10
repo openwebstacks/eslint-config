@@ -354,8 +354,5 @@ module.exports = {
     'ow3/if-newline': 'error',
     'ow3/import-dedupe': 'error',
     // 'ow3/prefer-inline-type-import': 'error',
-
-    // type safe error handling
-    'neverthrow/must-use-result': 'error',
   },
 }
