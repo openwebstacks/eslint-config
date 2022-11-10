@@ -42,6 +42,7 @@ module.exports = {
     'unicorn',
     'ow3',
     'neverthrow',
+    'no-only-tests',
   ],
   settings: {
     'import/resolver': {
