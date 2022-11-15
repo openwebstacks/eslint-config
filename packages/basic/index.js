@@ -162,8 +162,8 @@ module.exports = {
     },
     {
       files: [
+        './.stacks/buddy/**/*.*',
         './.stacks/core/cli/**/*.*',
-        './.stacks/core/runtime/**/*.*',
         './.stacks/scripts/**/*.*',
       ],
       rules: {
