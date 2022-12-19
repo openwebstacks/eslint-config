@@ -1,6 +1,6 @@
 {
   "name": "@ow3/eslint-config-basic",
-  "version": "0.33.11",
+  "version": "0.34.0",
   "description": "",
   "author": "Chris Breuer",
   "license": "MIT",
@@ -29,7 +29,7 @@
     "eslint-plugin-ow3": "workspace:*",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-unicorn": "^45.0.2",
-    "eslint-plugin-yml": "^1.3.0",    
+    "eslint-plugin-yml": "^1.3.0",
     "jsonc-eslint-parser": "^2.1.0",
     "yaml-eslint-parser": "^1.0.1"
   },
