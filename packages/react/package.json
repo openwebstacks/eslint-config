@@ -20,12 +20,12 @@
   },
   "dependencies": {
     "@ow3/eslint-config-ts": "workspace:*",
-    "eslint-plugin-react": "^7.31.1",
+    "eslint-plugin-react": "^7.31.11",
     "eslint-plugin-react-hooks": "^4.6.0"
   },
   "devDependencies": {
-    "eslint": "^8.16.0",
-    "react": "^18.1.0",
-    "typescript": "^4.7.2"
+    "eslint": "^8.29.0",
+    "react": "^18.2.0",
+    "typescript": "^4.9.4"
   }
 }
