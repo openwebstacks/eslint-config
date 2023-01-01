@@ -37,6 +37,7 @@ module.exports = {
     '!.vscode',
     '!.stacks',
     '.stacks/core/cli/README.md',
+    '.stacks/core/strings/README.md',
   ],
   plugins: [
     'html',
@@ -167,8 +168,8 @@ module.exports = {
         './.stacks/buddy/**/*.*',
         './.stacks/core/cli/**/*.*',
         './.stacks/scripts/**/*.*',
-        'scripts/**/*.*', 
-        'cli.*'
+        'scripts/**/*.*',
+        'cli.*',
       ],
       rules: {
         'no-console': 'off',
