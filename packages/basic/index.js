@@ -31,9 +31,9 @@ module.exports = {
     'node_modules',
     'vendor', // composer vendor directory
     'storage', // laravel's storage directory may contain compiled views etc.
+    '.vitepress',
     '__snapshots__',
     '!.github',
-    '!.vitepress',
     '!.vscode',
     '!.stacks',
     '.stacks/core/cli/README.md',
