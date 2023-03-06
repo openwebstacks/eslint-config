@@ -33,6 +33,17 @@ module.exports = {
     'storage', // laravel's storage directory may contain compiled views etc.
     '.vitepress',
     '__snapshots__',
+    // ignore for in lint-staged
+    '*.css',
+    '*.png',
+    '*.ico',
+    '*.toml',
+    '*.patch',
+    '*.txt',
+    '*.crt',
+    '*.key',
+    'Dockerfile',
+    // force include
     '!.github',
     '!.vscode',
     '!.stacks',
@@ -343,6 +354,8 @@ module.exports = {
     'unicorn/prefer-type-error': 'error',
     // Use new when throwing error
     'unicorn/throw-new-error': 'error',
+    // Prefer using the node: protocol
+    'unicorn/prefer-node-protocol': 'error',
 
     'no-use-before-define': ['error', { functions: false, classes: false, variables: true }],
     'eslint-comments/disable-enable-pair': 'off',

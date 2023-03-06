@@ -14,13 +14,13 @@
     "lint:fix": "eslint . --fix",
     "prepare": "pnpm -r run stub",
     "fresh": "rimraf node_modules packages/**/node_modules pnpm-lock.yaml && pnpm i",
-    "release": "bumpp package.json packages/*/package.json",
+    "release": "bumpp -r && pnpm -r publish",
     "test": "pnpm -r run test"
   },
   "devDependencies": {
     "@ow3/eslint-config": "*",
-    "bumpp": "^8.2.1",
-    "eslint": "^8.33.0",
+    "bumpp": "^9.0.0",
+    "eslint": "^8.34.0",
     "eslint-plugin-ow3": "workspace:*",
     "rimraf": "^4.1.2",
     "typescript": "^4.9.5"
