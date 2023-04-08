@@ -1,6 +1,6 @@
 {
   "name": "@ow3/eslint-config",
-  "version": "0.39.1",
+  "version": "0.39.2",
   "description": "Open Web Foundation's ESLint config",
   "author": "Chris Breuer <chris@ow3.org> (https://github.com/chrisbbreuer)",
   "license": "MIT",
