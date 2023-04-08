@@ -14,7 +14,7 @@
     "lint:fix": "eslint . --fix",
     "prepare": "pnpm -r run stub",
     "fresh": "rimraf node_modules packages/**/node_modules pnpm-lock.yaml && pnpm i",
-    "release": "bumpp -r && pnpm -r publish",
+    "release": "bumpp -r",
     "test": "pnpm -r run test"
   },
   "devDependencies": {
