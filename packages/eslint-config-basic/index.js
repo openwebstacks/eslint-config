@@ -223,6 +223,7 @@ module.exports = {
     'import/no-mutable-exports': 'error',
     'import/no-unresolved': 'off',
     'import/no-absolute-path': 'off',
+    'import/newline-after-import': ['error', { count: 1 }],
 
     // Common
     'semi': ['error', 'never'],
@@ -331,6 +332,11 @@ module.exports = {
     'operator-linebreak': ['error', 'before'],
     'max-statements-per-line': ['error', { max: 1 }],
 
+    // node
+    // 'n/prefer-global/process': ['error', 'never'], // Not sure if we need it as we are using `process.env.NODE_ENV` a lot in front-end.
+    'n/prefer-global/buffer': ['error', 'never'],
+    'n/no-callback-literal': 'off',
+
     // unicorns
     // Pass error message when throwing errors
     'unicorn/error-message': 'error',
@@ -362,7 +368,6 @@ module.exports = {
     'import/no-named-as-default-member': 'off',
     'import/no-named-as-default': 'off',
     'import/namespace': 'off',
-    'n/no-callback-literal': 'off',
 
     'sort-imports': [
       'error',
@@ -382,6 +387,7 @@ module.exports = {
     // ow3
     'ow3/if-newline': 'error',
     'ow3/import-dedupe': 'error',
+    'ow3/top-level-function': 'error',
     // 'ow3/prefer-inline-type-import': 'error',
   },
 }

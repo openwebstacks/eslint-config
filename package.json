@@ -2,7 +2,7 @@
   "name": "@ow3/eslint-config-monorepo",
   "version": "0.37.2",
   "private": true,
-  "packageManager": "pnpm@7.21.0",
+  "packageManager": "pnpm@8.1.1",
   "author": "Chris Breuer",
   "license": "MIT",
   "engines": {
@@ -19,10 +19,10 @@
   },
   "devDependencies": {
     "@ow3/eslint-config": "*",
-    "bumpp": "^9.0.0",
-    "eslint": "^8.34.0",
+    "bumpp": "^9.1.0",
+    "eslint": "^8.38.0",
     "eslint-plugin-ow3": "workspace:*",
-    "rimraf": "^4.1.2",
-    "typescript": "^4.9.5"
+    "rimraf": "^4.4.1",
+    "typescript": "^5.0.3"
   }
 }
