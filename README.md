@@ -20,10 +20,11 @@ Forked from [`@ow3/eslint-config`](https://github.com/antfu/eslint-config)
 
 ###### Changes in this fork
 
-- Type-Safe Error Handling
+- Type-Safe error handling
 - Improved component library linting & formatting
-- Stacks Support
-- Laravel Support
+- Stacks support
+- Laravel support
+- UnoCSS class ordering support
 - Other minor additions, i.e. `no-constant-binary-expression` usage
 
 ## Usage
