@@ -171,11 +171,8 @@
     "vitejs",
     "vitepress",
     "vitest",
-    "voorjaar",
     "vue-demi",
-    "vueuse",
-    "windi",
-    "windicss"
+    "vueuse"
   ],
   "prettier.enable": false
 }
