@@ -10,7 +10,7 @@
     "pnpm": ">=7.13.3"
   },
   "scripts": {
-    "lint": "eslint .",
+    "lint": "pnpm -r run stub && eslint .",
     "lint:fix": "eslint . --fix",
     "build": "pnpm -r run build",
     "prepare": "pnpm -r run stub",
