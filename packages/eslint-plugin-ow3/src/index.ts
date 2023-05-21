@@ -4,6 +4,8 @@ import importDedupe from './rules/import-dedupe'
 import preferInlineTypeImport from './rules/prefer-inline-type-import'
 import topLevelFunction from './rules/top-level-function'
 import orderClasses from './rules/order-classes'
+import noTsExportEqual from './rules/no-ts-export-equal'
+import noCjsExports from './rules/no-cjs-exports'
 
 export default {
   rules: {
@@ -13,5 +15,7 @@ export default {
     'generic-spacing': genericSpacing,
     'top-level-function': topLevelFunction,
     'order-classes': orderClasses,
+    'no-cjs-exports': noCjsExports,
+    'no-ts-export-equal': noTsExportEqual,
   },
 }

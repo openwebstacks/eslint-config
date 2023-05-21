@@ -67,7 +67,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['*.json', '*.json5'],
+      files: ['*.json', '*.json5', '*.jsonc'],
       parser: 'jsonc-eslint-parser',
       rules: {
         'jsonc/array-bracket-spacing': ['error', 'never'],
