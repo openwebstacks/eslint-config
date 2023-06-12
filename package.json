@@ -2,8 +2,8 @@
   "name": "@ow3/eslint-config-monorepo",
   "version": "0.44.0",
   "private": true,
-  "packageManager": "pnpm@8.1.1",
-  "author": "Chris Breuer",
+  "packageManager": "pnpm@8.5.1",
+  "author": "Chris Breuer <chris@ow3.org> (https://github.com/chrisbbreuer/)",
   "license": "MIT",
   "engines": {
     "node": ">=v16.15.1",

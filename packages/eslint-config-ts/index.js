@@ -73,7 +73,6 @@ module.exports = {
     '@typescript-eslint/prefer-ts-expect-error': 'error',
     '@typescript-eslint/no-require-imports': 'error',
     '@typescript-eslint/consistent-type-assertions': ['error', { assertionStyle: 'as', objectLiteralTypeAssertions: 'allow-as-parameter' }],
-
     // Override JS
     'no-useless-constructor': 'off',
     'indent': 'off',
