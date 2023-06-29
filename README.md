@@ -62,21 +62,40 @@ Simply add the following to your `package.json`:
 
 ### VS Code Integration
 
-Install [VS Code ESLint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) and create `.vscode/settings.json`, and add the following setting:
+Install [VS Code ESLint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) and create `.vscode/settings.json` to add the following
 
-```json
+Add the following settings to your `settings.json`:
+
+```jsonc
 {
   "prettier.enable": false,
   "editor.formatOnSave": false,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  }
+    "source.fixAll.eslint": true,
+    "source.organizeImports": false,
+  },
+  // The following is optional.
+  // It's better to put under project setting `.vscode/settings.json`
+  // to avoid conflicts with working with different eslint configs
+  // that does not support all formats.
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "vue",
+    "html",
+    "markdown",
+    "json",
+    "jsonc",
+    "yaml"
+  ]
 }
 ```
 
 ### TypeScript Aware Rules
 
-Type aware rules are enabled when a `tsconfig.eslint.json` is found in the project root, which will introduce some stricter rules into your project. If you want to enable it while have no `tsconfig.eslint.json` in the project root, you can change tsconfig name by modifying `ESLINT_TSCONFIG` env. 
+Type aware rules are enabled when a `tsconfig.eslint.json` is found in the project root, which will introduce some stricter rules into your project. If you want to enable it while have no `tsconfig.eslint.json` in the project root, you can change tsconfig name by modifying `ESLINT_TSCONFIG` env.
 
 ```js
 // .eslintrc.js
@@ -118,7 +137,7 @@ npm i -D lint-staged simple-git-hooks
 
 This config does NOT lint CSS. I personally use [UnoCSS](https://github.com/unocss/unocss) so I don't write CSS. If you still prefer CSS, you can use [stylelint](https://stylelint.io/) for CSS linting.
 
-### I prefer XXX...
+### I prefer XXX
 
 Sure, you can override the rules in your `.eslintrc` file.
 
@@ -138,10 +157,10 @@ Or you can always fork this repo and make your own.
 ## Check Also
 
 - [stacksjs/stacks](https://github.com/stacksjs/stacks) - Stacks - The modern way to create & distribute component libraries
-- [stacksjs/vue-starter](https://github.com/stacksjs/vue-starter) - Starter template for Vue libraries
 - [stacksjs/web-components-starter](https://github.com/stacksjs/web-components-starter) - Starter template for Web Component libraries
 - [stacksjs/composable-starter](https://github.com/stacksjs/composable-starter) - Starter template for Composable libraries
 - [stacksjs/ts-starter](https://github.com/stacksjs/ts-starter) - Starter template for TypeScript libraries
+- [stacksjs/vue-starter](https://github.com/stacksjs/vue-starter) - Starter template for Vue libraries
 
 ## 📈 Changelog
 
