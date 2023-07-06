@@ -30,7 +30,7 @@ module.exports = {
     'cypress',
     'node_modules',
     'vendor', // composer vendor directory
-    'storage', // laravel's storage directory may contain compiled views etc.
+    './storage', // laravel's root storage directory may contain compiled views etc.
     '.vitepress',
     '__snapshots__',
     // ignore for in lint-staged
