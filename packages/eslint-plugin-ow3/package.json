@@ -17,14 +17,14 @@
   },
   "dependencies": {
     "@stacksjs/path": "^0.52.0",
-    "@typescript-eslint/utils": "^5.59.7",
+    "@typescript-eslint/utils": "^5.61.0",
     "@unocss/config": "0.51.6",
     "@unocss/core": "0.51.6",
     "synckit": "^0.8.5"
   },
   "devDependencies": {
-    "@types/node": "^20.2.3",
+    "@types/node": "^20.3.3",
     "unbuild": "^1.2.1",
-    "vitest": "^0.31.1"
+    "vitest": "^0.32.4"
   }
 }
