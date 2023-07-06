@@ -1,6 +1,6 @@
 {
   "name": "@ow3/eslint-config-ts",
-  "version": "0.45.0",
+  "version": "0.45.1",
   "description": "",
   "author": "Chris Breuer <chris@ow3.org> (https://github.com/chrisbbreuer/)",
   "license": "MIT",
