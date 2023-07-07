@@ -176,11 +176,11 @@ module.exports = {
     '@typescript-eslint/triple-slash-reference': 'off',
     '@typescript-eslint/ban-types': [
       'error', {
-        'types': {
-          'Function': false, // Stacks uses Functions
+        types: {
+          Function: false, // Stacks uses Functions
         },
-        'extendDefaults': true
-      }
+        extendDefaults: true,
+      },
     ],
     // handled by unused-imports/no-unused-imports
     '@typescript-eslint/no-unused-vars': 'off',
