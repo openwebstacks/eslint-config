@@ -47,6 +47,7 @@ module.exports = {
     '!.github',
     '!.vscode',
     '!.stacks',
+    '.stacks/certs',
     '.stacks/core/cli/README.md',
     '.stacks/core/strings/README.md',
     // force exclude
