@@ -20,8 +20,7 @@
     "@ow3/eslint-config-basic": "workspace:*",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
-    "eslint-plugin-jest": "^27.2.3",
-    "eslint-plugin-neverthrow": "^1.1.4"
+    "eslint-plugin-jest": "^27.2.3"
   },
   "devDependencies": {
     "eslint": "^8.45.0"

@@ -56,7 +56,6 @@ module.exports = {
     'html',
     'unicorn',
     'ow3',
-    'neverthrow',
     'no-only-tests',
     'unused-imports',
   ],
@@ -174,7 +173,6 @@ module.exports = {
       files: ['*.ts', '*.vue'],
       parser: '@typescript-eslint/parser',
       rules: {
-        'neverthrow/must-use-result': 'error',
         'no-void': ['error', { allowAsStatement: true }],
       },
     },
