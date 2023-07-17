@@ -6,7 +6,6 @@ import { runAsWorker } from 'synckit'
 import { sortRules } from './utils'
 
 async function getGenerator() {
-  // eslint-disable-next-line n/prefer-global/process
   const { config, sources } = await loadConfig(process.cwd(), uiPath('unocss.ts'))
   if (!sources.length)
     throw new Error('[@ow3/eslint-plugin] No `uno.config.ts` file found. Please create a bug report.')
